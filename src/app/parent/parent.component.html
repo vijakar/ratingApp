@@ -1,0 +1,9 @@
+<div class="parent">
+    <div class="rating-container">
+<app-child [inputStars]="stars" (ratingEvent)="catch($event)"></app-child>
+<img src={{ratingUrl}} alt="">
+</div>
+<div class="text-area">
+    <app-text-area-app></app-text-area-app>
+</div>
+</div>
